@@ -1,0 +1,28 @@
+{% extends 'rango/base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}About{% endblock %}
+
+{% block body_block %}
+
+    <div class="page-header">
+                <h1>About</h1>
+                
+            </div>
+            <div id="msg">Hello</div>
+            <div>
+            <p></strong>Welcome!</p>
+
+            <img  width="450" height="500" src="{% static "images/2.jpg" %}" alt="Picture of Rango" /> <!-- New line -->
+            </div>
+            <button onClick="alert('You clicked the button using Javascript.');">
+       Click Me - I run Javascript
+</button><br />
+
+<button id="about-btn"> Click Me - I'm Javascript on Speed</button>
+
+
+
+
+{% endblock %}
